@@ -11,7 +11,7 @@ function Navbar() {
     }
 
     return (
-        <div className='fixed w-full h-20 shadow-xl z-50'>
+        <div className='fixed w-full h-20 shadow-xl z-50 bg-slate-700'>
             <div className='flex max-md:justify-end justify-center items-center w-full h-full px-2 2xl:px-16'>
                 <div>
                     <ul className='hidden md:flex'>
@@ -23,6 +23,9 @@ function Navbar() {
                         </Link>
                         <Link href='/'>
                             <li className='ml-10 text-sm hover:border-b'>EXPERIENCE</li>
+                        </Link>
+                        <Link href='/'>
+                            <li className='ml-10 text-sm hover:border-b'>SKILLS</li>
                         </Link>
                         <Link href='/'>
                             <li className='ml-10 text-sm hover:border-b'>CONTACT</li>
@@ -56,6 +59,9 @@ function Navbar() {
                                 </Link>
                                 <Link href='/'>
                                     <li className='py-4 text-sm'>EXPERIENCE</li>
+                                </Link>
+                                <Link href='/'>
+                                    <li className='py-4 text-sm'>SKILLS</li>
                                 </Link>
                                 <Link href='/'>
                                     <li className='py-4 text-sm'>CONTACT</li>
