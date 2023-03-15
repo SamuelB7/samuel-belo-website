@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import JsPng from 'src/public/assets/js.png'
-import TsPng from 'src/public/assets/typescript.png'
-import NodePng from 'src/public/assets/nodejs.png'
-import ReactPng from 'src/public/assets/react.png'
-import NextSvg from 'src/public/assets/next.svg'
-import NestJsSvg from 'src/public/assets/nestjs.svg'
-import UbuntuPng from 'src/public/assets/ubuntu.png'
-import PostgresSvg from 'src/public/assets/postgresql.svg'
+import JsPng from 'public/assets/js.png'
+import TsPng from 'public/assets/typescript.png'
+import NodePng from 'public/assets/nodejs.png'
+import ReactPng from 'public/assets/react.png'
+import NextSvg from 'public/assets/next.svg'
+import NestJsSvg from 'public/assets/nestjs.svg'
+import UbuntuPng from 'public/assets/ubuntu.png'
+import PostgresSvg from 'public/assets/postgresql.svg'
 
 function Skills() {
   return (
