@@ -15,19 +15,19 @@ function Navbar() {
             <div className='flex max-md:justify-end justify-center items-center w-full h-full px-2 2xl:px-16'>
                 <div>
                     <ul className='hidden md:flex'>
-                        <Link href='/'>
+                        <Link href='/#home' scroll={false}>
                             <li className='ml-10 text-sm hover:border-b'>HOME</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#about' scroll={false}>
                             <li className='ml-10 text-sm hover:border-b'>ABOUT</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/' scroll={false}>
                             <li className='ml-10 text-sm hover:border-b'>EXPERIENCE</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#skills' scroll={false}>
                             <li className='ml-10 text-sm hover:border-b'>SKILLS</li>
                         </Link>
-                        <Link href='/'>
+                        <Link href='/#contact' scroll={false}>
                             <li className='ml-10 text-sm hover:border-b'>CONTACT</li>
                         </Link>
                     </ul>
@@ -51,19 +51,19 @@ function Navbar() {
                         </div>
                         <div className='py-4 flex flex-col'>
                             <ul>
-                                <Link href='/'>
+                                <Link href='/#home' scroll={false}>
                                     <li className='py-4 text-sm'>HOME</li>
                                 </Link>
-                                <Link href='/'>
+                                <Link href='/#about' scroll={false}>
                                     <li className='py-4 text-sm'>ABOUT</li>
                                 </Link>
-                                <Link href='/'>
+                                <Link href='/' scroll={false}>
                                     <li className='py-4 text-sm'>EXPERIENCE</li>
                                 </Link>
-                                <Link href='/'>
+                                <Link href='/#skills' scroll={false}>
                                     <li className='py-4 text-sm'>SKILLS</li>
                                 </Link>
-                                <Link href='/'>
+                                <Link href='/#contact' scroll={false}>
                                     <li className='py-4 text-sm'>CONTACT</li>
                                 </Link>
                             </ul>

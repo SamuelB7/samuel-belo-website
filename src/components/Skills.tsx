@@ -11,7 +11,7 @@ import PostgresSvg from 'public/assets/postgresql.svg'
 
 function Skills() {
   return (
-    <div className='w-full lg:h-screen p-2'>
+    <div id='skills' className='w-full lg:h-screen p-2'>
         <div className='max-w-7xl mx-auto flex flex-col justify-center h-full'>
             <p className='text-xl tracking-widest'>Skills that I'm experienced with:</p>
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
