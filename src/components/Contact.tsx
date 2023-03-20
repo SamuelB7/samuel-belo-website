@@ -26,7 +26,7 @@ function Contact() {
             </form>
         </div>
         <div className='flex justify-center py-12'>
-            <Link href='/'>
+            <Link href='/#home' scroll={false}>
                 <div className='rounded-full border border-white p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                     <HiOutlineChevronDoubleUp size={30}/>
                 </div>
