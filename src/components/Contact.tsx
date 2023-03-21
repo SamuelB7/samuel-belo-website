@@ -4,8 +4,8 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 
 function Contact() {
   return (
-    <div id='contact' className='w-full lg:h-screen'>
-        <div className='max-w-7xl m-auto p-4 w-full h-full shadow-xl rounded-xl'>
+    <div id='contact' className='w-full'>
+        <div className='max-w-7xl m-auto p-4 w-full h-full'>
             <h2 className=''>Contact me</h2>
             <form action="">
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>

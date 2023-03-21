@@ -5,7 +5,7 @@ function About() {
     <div id='about' className='w-full p-7 flex justify-center items-center'>
       <div className='max-w-7xl flex flex-col'>
         <div className='flex flex-col items-center justify-center text-justify'>
-          <h2 className='py-2'>About Me</h2>
+          <h2 className='py-2'>ABOUT ME</h2>
           <p className='py-2'>
             In 2016 I graduated in Business Administration from PUC-PR and was working in a relatively stable job, however, 
             I didn't feel professionally fulfilled, and honestly, I didn't like my job. Around 2019 I started to research other areas

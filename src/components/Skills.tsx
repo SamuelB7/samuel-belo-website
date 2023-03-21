@@ -13,7 +13,7 @@ function Skills() {
   return (
     <div id='skills' className='w-full p-7'>
         <div className='max-w-7xl mx-auto flex flex-col justify-center h-full'>
-            <p className='text-xl tracking-widest'>Skills that I'm experienced with:</p>
+            <p className='text-xl tracking-widest'>My Skills:</p>
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
 
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex justify-center items-center'>

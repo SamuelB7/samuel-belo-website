@@ -21,7 +21,7 @@ function Navbar() {
                         <Link href='/#about' scroll={false}>
                             <li className='ml-10 text-sm hover:border-b'>ABOUT</li>
                         </Link>
-                        <Link href='/' scroll={false}>
+                        <Link href='/#experience' scroll={false}>
                             <li className='ml-10 text-sm hover:border-b'>EXPERIENCE</li>
                         </Link>
                         <Link href='/#skills' scroll={false}>
@@ -57,7 +57,7 @@ function Navbar() {
                                 <Link href='/#about' scroll={false}>
                                     <li className='py-4 text-sm'>ABOUT</li>
                                 </Link>
-                                <Link href='/' scroll={false}>
+                                <Link href='/#experience' scroll={false}>
                                     <li className='py-4 text-sm'>EXPERIENCE</li>
                                 </Link>
                                 <Link href='/#skills' scroll={false}>
