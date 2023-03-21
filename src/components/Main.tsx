@@ -31,10 +31,14 @@ function Main() {
                             </span>
                         </div>
                         <div className='rounded-full border border-white p-3 cursor-pointer hover:scale-105 ease-in duration-300 group flex relative'>
-                            <HiOutlineDocumentText />
+                            <a href="documents/SAMUEL_BELO_Resume.pdf" download={"SAMUEL's Resume.pdf"}>
+                                <HiOutlineDocumentText />
+
+                            </a>
                             <span className="group-hover:opacity-100 transition-opacity bg-slate-800 px-1 text-sm text-gray-100 rounded-md absolute left-1/2 -translate-x-1/2 translate-y-full opacity-0 m-4 mx-auto">
                                 Resume
                             </span>
+
                         </div>
                         <div className='rounded-full border border-white p-3 cursor-pointer hover:scale-105 ease-in duration-300 group flex relative'>
                             <Link href="https://wa.me/554198834077" target={'_blank'}>
