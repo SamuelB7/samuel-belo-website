@@ -1,8 +1,8 @@
+import Head from 'next/head'
 import Navbar from '@/components/Navbar'
 import Main from '@/components/Main'
 import About from '@/components/About'
 import Skills from '@/components/Skills'
-import Head from 'next/head'
 import Contact from '@/components/Contact'
 import Experience from '@/components/Experience'
 
