@@ -7,7 +7,7 @@ function Experience() {
 
     return (
         <div id='experience' className='flex flex-col items-center p-7'>
-            <h2 className='text-center'>PROFESSIONAL EXPERIENCE</h2>
+            <h2 className='text-center'>{t('experience_tile')}</h2>
             <div className='flex flex-col md:flex-row justify-center my-7'>
                 <div className='w-full md:w-7/12'>
 

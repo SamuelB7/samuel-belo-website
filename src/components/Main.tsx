@@ -5,7 +5,7 @@ import { HiOutlineDocumentText } from 'react-icons/hi'
 import { useTranslation } from 'react-i18next'
 
 function Main() {
-    const { t } = useTranslation()
+    const { t, i18n } = useTranslation()
 
     return (
         <div id='home' className='w-full h-screen text-center'>
@@ -13,9 +13,6 @@ function Main() {
                 <div>
                     <h1 className='py-2'>Samuel Belo</h1>
                     <h1 className='py-2'>{t('main_title')}</h1>
-                    {/* <p className='py-4 max-w-[70%] m-auto'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel lobortis felis. Praesent eget augue sit amet sapien fermentum euismod id porta enim. Donec nisi augue, condimentum quis molestie eget, iaculis vitae ipsum.
-                </p> */}
                     <div className='flex items-center justify-between max-w-xs m-auto py-4'>
                         <div className='rounded-full border border-white p-3 cursor-pointer hover:scale-105 ease-in duration-300 group flex relative'>
                             <Link href="https://www.linkedin.com/in/samuelb7/" target={'_blank'}>

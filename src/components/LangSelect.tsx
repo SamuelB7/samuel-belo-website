@@ -18,12 +18,12 @@ function LangSelect() {
     }
 
     function changeLang (lng: string) {
-        if(lng === 'pt-BR') {
+        if(lng === 'pt_BR') {
             setLang('Português')
             setFlag('/assets/brazil.png')
         }
 
-        if(lng === 'en-US') {
+        if(lng === 'en') {
             setLang('English')
             setFlag('/assets/united-states.png')
         }
@@ -41,12 +41,12 @@ function LangSelect() {
             {expanded && (
                 <div className="absolute w-40 bg-slate-700">
                     <ul className='border border-white rounded-md'>
-                        <li className='flex justify-start gap-2 p-2' onClick={() => changeLang('en-US')}>
-                            <Image src='/assets/united-states.png' alt='en-us' width={25} height={25}/>
+                        <li className='flex justify-start gap-2 p-2' onClick={() => changeLang('en')}>
+                            <Image src='/assets/united-states.png' alt='en' width={25} height={25}/>
                             <p>English</p>
                         </li>
 
-                        <li className='flex justify-start gap-2 p-2' onClick={() => changeLang('pt-BR')}>
+                        <li className='flex justify-start gap-2 p-2' onClick={() => changeLang('pt_BR')}>
                             <Image src='/assets/brazil.png' alt='pt-br' width={25} height={25}/>
                             <p>Português</p>
                         </li>
