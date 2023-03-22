@@ -33,7 +33,7 @@ function LangSelect() {
 
     return (
         <div className='w-36 max-[420px]:m-0 ml-10' tabIndex={0} onBlur={close}>
-            <div className="flex items-center justify-between gap-2 my-2 border border-white rounded rounded-lg p-2 w-40" onClick={handleOption}>
+            <div className="flex items-center justify-between gap-2 my-2 border border-white rounded-lg p-2 w-40" onClick={handleOption}>
                 <Image src={flag} alt='' width={25} height={25}/>
                 <p>{lang}</p>
                 <FaChevronDown />
