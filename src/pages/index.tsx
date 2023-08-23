@@ -3,8 +3,8 @@ import Navbar from '@/components/Navbar'
 import Main from '@/components/Main'
 import About from '@/components/About'
 import Skills from '@/components/Skills'
-import Contact from '@/components/Contact'
 import Experience from '@/components/Experience'
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Home() {
   return (
@@ -17,11 +17,11 @@ export default function Home() {
       </Head>
       <Navbar />
       <main>
+        <Analytics />
         <Main />
         <About />
         <Experience />
         <Skills />
-        <Contact />
       </main>
     </>
   )

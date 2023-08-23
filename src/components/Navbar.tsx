@@ -30,9 +30,6 @@ function Navbar() {
                         <Link href='/#skills' scroll={false}>
                             <li className='ml-10 text-sm hover:border-b'>{t('navbar_skills')}</li>
                         </Link>
-                        <Link href='/#contact' scroll={false}>
-                            <li className='ml-10 text-sm hover:border-b'>{t('navbar_contact')}</li>
-                        </Link>
                     </ul>
                 </div>
                 <div className='hidden md:block '>
@@ -68,9 +65,6 @@ function Navbar() {
                                 </Link>
                                 <Link href='/#skills' scroll={false}>
                                     <li className='py-4 text-sm'>{t('navbar_skills')}</li>
-                                </Link>
-                                <Link href='/#contact' scroll={false}>
-                                    <li className='py-4 text-sm'>{t('navbar_contact')}</li>
                                 </Link>
                             </ul>
                             <LangSelect />
