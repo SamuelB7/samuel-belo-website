@@ -31,7 +31,7 @@ function Main() {
                             </span>
                         </div>
                         <div className='rounded-full border border-white p-3 cursor-pointer hover:scale-105 ease-in duration-300 group flex relative'>
-                            <a href="documents/SAMUEL_BELO_Resume.pdf" download={"SAMUEL's Resume.pdf"}>
+                            <a href="documents/SAMUEL_Resume.pdf" download={"SAMUEL's Resume.pdf"}>
                                 <HiOutlineDocumentText />
 
                             </a>

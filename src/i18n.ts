@@ -12,28 +12,30 @@ const resources = {
       "navbar_experience": "EXPERIENCE",
       "navbar_skills": "SKILLS",
       "navbar_contact": "CONTACT",
-  
-      "main_title": "Fullstack Developer",
+
+      "main_title": "Software Developer",
       "main_resume": "Resume",
-  
+
       "about_title": "ABOUT ME",
-      "about_1": "In 2016 I graduated in Business Administration from PUC-PR and was working in a relatively stable job, however, I didn't feel professionally fulfilled, and honestly, I didn't like my job. Around 2019 I started to research other areas where I could fit in better and give myself the feeling of professional fulfillment I was looking for so much, that's when I saw in programming an opportunity to change careers. I've always been a very technical person, I really like to 'tweak' things, and use lines of code to solve problems, and be able to do this not only as a hobby but also as a job and build a career on top of it, that's what attracted me to the world of software engineering. I started my studies on my own through online courses, and in July 2021 I got my first job as a developer.",
-      "about_2": "I'm again, at the beginning of my professional journey, but the difference is that now I work with something that makes me happy. And I'll keep doing my best to improve as a professional and to generate value for everyone I work with.",
-  
+      "about_1": "I am a professional software developer with over 2 years of experience developing internet applications using JavaScript/TypeScript ecosystem tools like NodeJs and ReactJs. I have also worked on applications using SQL and NoSQL databases such as PostgreSQL, MongoDB, and Redis, and AWS cloud services like EC2, S3, Lambda, SES, CloudWatch, and EventBridge.",
+      "about_2": "I am accustomed to working in agile environments and have experience working in teams that use Scrum as a work management methodology. I'm also skilled in collaborating with teams to solve problems and implement innovative solutions.",
+
       "experience_tile": "PROFESSIONAL EXPERIENCE",
       "experience_techs": "Technologies used:",
-      "experience_job_full_stack_title": "Fullstack Developer",
+      "experience_job_full_stack_title": "Full Stack Developer",
       "experience_job__present": "Present",
-  
-      "experience_job_1_description_1": "Helped on the development of the admin panel used by both company and clients.",
-      "experience_job_1_description_2": "Worked on the development of the eCommerce website used by the company to sell their used vehicles.",
-      
-      "experience_job_2_description_1": "Software development for internal management solutions.",
-  
-      "experience_job_3_description_1": "Software development for other companies.",
-  
+
+      "experience_job_1_description_1": "Development of a web app made specifically for internal clients, to improve the eﬃciency of the company's day-to-day processes, using NodeJs, ReactJs, MongoDB, and AWS.",
+      "experience_job_1_description_2": "Development of the e-commerce system used by the company to improve the sales of their used vehicles. Integration with payment API and invoice issuing API to improve the eﬃciency of the sales process. Made with NextJs, NestJs, GraphQL, PostgreSQL, Redis, and AWS.",
+      "experience_job_1_description_3": "Development of the web app for external clients to digitize the company's services, using NodeJs, ReactJs, MongoDB, Redis, and AWS.",
+
+      "experience_job_2_description_1": "Development of a web app for the management of the company's civil construction projects. Made with Laravel, PostgreSQL, and NodeJs.",
+
+      "experience_job_3_description_1": "Development of the company's main website using Angular.",
+      "experience_job_3_description_2": "Development of a web app for real state management (rental and sale). Made with Laravel and MySQL.",
+
       "skills": "My Skills",
-  
+
       "contact_title": "Get in contact:",
       "contact_name": "NAME",
       "contact_email": "EMAIL",
@@ -51,28 +53,30 @@ const resources = {
       "navbar_experience": "EXPERIÊNCIA",
       "navbar_skills": "HABILIDADES",
       "navbar_contact": "CONTATO",
-  
-      "main_title": "Desenvolvedor Fullstack",
+
+      "main_title": "Desenvolvedor de Software",
       "main_resume": "Currículo",
-  
+
       "about_title": "SOBRE",
-      "about_1": "Em 2016 eu me formei em Administração pela PUC-PR e estava trabalhando em um emprego relativamente estável, porém, eu não me sentia realizado profissionalmente, e sendo bem sincero, eu não gostava nem um pouco do meu trabalho. Por volta de 2019 eu comecei a pesquisar outras áreas em que eu poderia me encaixar melhor e me dar o sentimento de realização profissional que eu tanto buscava, foi aí que eu vi na programação uma oportunidade de mudar de carreira. Eu sempre fui uma pessoa muito técnica, gosto muito de 'fuçar' as coisas, e usar linhas de código para solucionar problemas e poder fazer isso não só por hobby, mas também como trabalho e construir uma carreira em cima disso, foi o que me atraiu para o mundo do desenvolvimento de sistemas, pra mim foi como unir o útil ao agradável. Comecei os meus estudos por conta própria através de cursos na internet, até que em Julho de 2021 eu consegui meu primeiro emprego como desenvolvedor.",
-      "about_2": "Eu estou novamente, no começo da minha jornada profissional, mas a diferença é que agora eu trabalho com algo que me faz feliz. E vou continuar fazendo o meu melhor para melhorar como profissional e gerar valor para todos com quem trabalho.",
-  
+      "about_1": "Sou um desenvolvedor de software com mais de 2 anos de experiência profissional no desenvolvimento de aplicações para internet usando ferramentas do ecossistema JavaScript/TypeScript como NodeJs e ReactJs. Também trabalhei em aplicações usando bancos de dados SQL e NoSQL, como PostgreSQL, MongoDB e Redis, e serviços em nuvem AWS como EC2, S3, Lambda, SES, CloudWatch e EventBridge. Tenho proficiência em inglês e posso trabalhar em projetos internacionais.",
+      "about_2": "Estou acostumado a trabalhar em ambientes ágeis e tenho experiência trabalhando em equipes que utilizam Scrum como metodologia de gestão de trabalho. Também tenho habilidade em colaborar com equipes para resolver problemas e implementar soluções inovadoras.",
+
       "experience_tile": "EXPERIÊNCIA PROFISSIONAL",
       "experience_techs": "Tecnologias utilizadas:",
-      "experience_job_full_stack_title": "Desenvolvedor Fullstack",
+      "experience_job_full_stack_title": "Desenvolvedor Full Stack",
       "experience_job__present": "Atualmente",
-  
-      "experience_job_1_description_1": "Desenvolvimento do painel administrativo que é utilizando tanto pela empresa quanto pelos clientes.",
-      "experience_job_1_description_2": "Desenvolvimento do eCommerce utilizado pela empresa para vender seus veículos semi-novos",
-      
-      "experience_job_2_description_1": "Desenvolvimento de software que gestão interno.",
-  
-      "experience_job_3_description_1": "Desenvolvimento de software para outras empresas.",
-  
+
+      "experience_job_1_description_1": "Desenvolvimento de uma aplicação web feita especificamente para clientes internos, para melhorar a eficiência dos processos do dia a dia da empresa, utilizando NodeJs, ReactJs, MongoDB e AWS.",
+      "experience_job_1_description_2": "Desenvolvimento do sistema de e-commerce utilizado pela empresa para melhorar as vendas de seus veículos usados. Integração com API de pagamento e API de emissão de notas fiscais para melhorar a eficiência do processo de vendas. Feito com NextJs, NestJs, GraphQL, PostgreSQL, Redis e AWS.",
+      "experience_job_1_description_3": "Desenvolvimento de uma aplicação para clientes externos com o objetivo de digitalizar os serviços da empresa, utilizando NodeJs, ReactJs, MongoDB, Redis e AWS.",
+
+      "experience_job_2_description_1": "Desenvolvimento de uma aplicação web para gestão dos projetos de construção civil da empresa. Feito com Laravel, PostgreSQL e NodeJs.",
+
+      "experience_job_3_description_1": "Desenvolvimento do site institucional da empresa utilizando Angular.",
+      "experience_job_3_description_2": "Desenvolvimento de uma aplicação web para gestão imobiliária (aluguel e venda). Feito com Laravel e MySQL.",
+
       "skills": "Minhas habilidades:",
-  
+
       "contact_title": "Entre em contato:",
       "contact_name": "NOME",
       "contact_email": "EMAIL",
@@ -98,4 +102,4 @@ i18n
     }
   });
 
-  export default i18n;
+export default i18n;

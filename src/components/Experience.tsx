@@ -32,6 +32,9 @@ function Experience() {
                             <p className='my-2 text-base font-normal text-justify'>
                                 {t('experience_job_1_description_2')}
                             </p>
+                            <p className='my-2 text-base font-normal text-justify'>
+                                {t('experience_job_1_description_3')}
+                            </p>
                             <h6 className='my-3'>{t('experience_techs')}</h6>
                             <div className='flex gap-2 max-[420px]:flex-col'>
                                 <span className='inline-block px-2 py-1 font-semibold text-slate-700 bg-white rounded-md max-[420px]:w-28'>
@@ -50,7 +53,13 @@ function Experience() {
                                     MongoDB
                                 </span>
                                 <span className='inline-block px-2 py-1 font-semibold text-slate-700 bg-white rounded-md max-[420px]:w-28'>
+                                    Redis
+                                </span>
+                                <span className='inline-block px-2 py-1 font-semibold text-slate-700 bg-white rounded-md max-[420px]:w-28'>
                                     GraphQL
+                                </span>
+                                <span className='inline-block px-2 py-1 font-semibold text-slate-700 bg-white rounded-md max-[420px]:w-28'>
+                                    AWS
                                 </span>
                             </div>
                         </li>
@@ -108,6 +117,9 @@ function Experience() {
                             </div>
                             <p className='my-2 text-base font-normal text-justify'>
                                 {t('experience_job_3_description_1')}
+                            </p>
+                            <p className='my-2 text-base font-normal text-justify'>
+                                {t('experience_job_3_description_2')}
                             </p>
                             <h6 className='my-3'>{t('experience_techs')}</h6>
                             <div className='flex gap-2 max-[420px]:flex-col'>

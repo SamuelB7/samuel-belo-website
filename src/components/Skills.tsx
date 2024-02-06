@@ -30,7 +30,7 @@ function Skills() {
                                 />
                             </div>
                             <div className=''>
-                                <h2>JAVASCRIPT</h2>
+                                <h2>JS</h2>
                             </div>
                         </div>
                     </div>
@@ -46,7 +46,7 @@ function Skills() {
                                 />
                             </div>
                             <div className=''>
-                                <h2>TYPESCRIPT</h2>
+                                <h2>TS</h2>
                             </div>
                         </div>
                     </div>
